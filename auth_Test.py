@@ -136,7 +136,7 @@ class Login(Resource):
             resp.update(data)
             return resp  
 
-@api.route('/refresh')
+# @api.route('/refresh')
 class Refresh(Resource):
     @classmethod
     @jwt_refresh_token_required
