@@ -1,9 +1,5 @@
-# python code to demonstrate the working of unittest
 import unittest
 from source_code.mathematics import Maths
-
-
-# in above we are importing all the methods that are present in mathematics.py
 
 class TestMaths(unittest.TestCase):
 
@@ -33,3 +29,5 @@ class TestMaths(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+

@@ -10,3 +10,5 @@ class DealData(object):
     def get_data(self):
         print('Conected to server-prod-HKG')
         return [Deal(1234, 2300000), Deal(1235, 5000000, True)]
+
+

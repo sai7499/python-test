@@ -1,4 +1,4 @@
-from unittest.mock import MagicMock
+#from unittest.mock import MagicMock
 import mock
 from unittest import TestCase
 from source_code.deal_process import DealProcess
@@ -20,5 +20,4 @@ class TestDealProcess(TestCase):
 
 
 
-a = TestDealProcess()
-a.test_today_deals()
+
